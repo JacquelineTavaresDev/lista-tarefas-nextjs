@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lista de Tarefas - Next.js 15
 
-## Getting Started
+Aplicação simples de lista de tarefas desenvolvida com Next.js 15, utilizando TypeScript, hooks personalizados e testes unitários.
 
-First, run the development server:
+### Funcionalidades
+- Listagem de tarefas (dados simulados)
+- Adição de novas tarefas
+- Contador de tarefas com hook personalizado
+- Testes unitários com Jest e Testing Library
 
-```bash
+### Conceitos aplicados
+- Server Components (App Router)
+- Client Components
+- Hooks personalizados
+
+### Estrutura do projeto
+src/
+  app/
+  components/
+  hooks/
+  data/
+  tests/
+
+### Tecnologias
+- Next.js 15
+- React
+- TypeScript
+- Jest
+- Testing Library
+
+### Como executar o projeto
+1. Instale as dependências:
+npm install
+2. Rode o projeto:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Acesse no navegador:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Como rodar os testes:
+npm run test
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Observações:
+Os dados das tarefas são simulados com Promise.resolve()
+O projeto segue a separação entre Server e Client Components
+Os testes cobrem os principais fluxos da aplicação
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Autora:
+Francisca Jacqueline Ribeiro Tavares
