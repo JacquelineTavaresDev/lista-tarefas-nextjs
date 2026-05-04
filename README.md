@@ -45,5 +45,8 @@ Os dados das tarefas são simulados com Promise.resolve()
 O projeto segue a separação entre Server e Client Components
 Os testes cobrem os principais fluxos da aplicação
 
+### 🔗 Deploy
+https://lista-tarefas-nextjs-1qzo93m1k-jacquelinetavares-projects.vercel.app/
+
 ## Autora:
 Francisca Jacqueline Ribeiro Tavares
