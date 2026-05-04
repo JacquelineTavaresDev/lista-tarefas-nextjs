@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const nextJest = require('next/jest');
 
 const createJestConfig = nextJest({
@@ -10,6 +12,7 @@ const customJestConfig = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
+  testMatch: ['**/tests/**/*.test.ts?(x)'],
 };
 
 module.exports = createJestConfig(customJestConfig);
