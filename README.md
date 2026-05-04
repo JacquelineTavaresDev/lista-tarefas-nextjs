@@ -1,6 +1,6 @@
 # Lista de Tarefas - Next.js 15
 
-Aplicação simples de lista de tarefas desenvolvida com Next.js 15, utilizando TypeScript, hooks personalizados e testes unitários.
+Aplicação simples de lista de tarefas desenvolvida com Next.js, utilizando TypeScript, hooks personalizados e testes unitários.
 
 ### Funcionalidades
 - Listagem de tarefas (dados simulados)
@@ -40,13 +40,20 @@ http://localhost:3000
 ### Como rodar os testes:
 npm run test
 
+- CI/CD:
+  Este projeto utiliza GitHub Actions para automação de integração e entrega contínua:
+    - Lint com ESLint.
+    - Testes automatizados com Jest.
+    - Build da aplicação.
+    - Deploy automático na Vercel a cada push na branch main.
+
+### Deploy
+https://lista-tarefas-nextjs-1qzo93m1k-jacquelinetavares-projects.vercel.app/
+
 ### Observações:
 Os dados das tarefas são simulados com Promise.resolve()
 O projeto segue a separação entre Server e Client Components
 Os testes cobrem os principais fluxos da aplicação
-
-### Deploy
-https://lista-tarefas-nextjs-1qzo93m1k-jacquelinetavares-projects.vercel.app/
 
 ## Autora:
 Francisca Jacqueline Ribeiro Tavares
