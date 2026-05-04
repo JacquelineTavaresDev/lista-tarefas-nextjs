@@ -41,7 +41,7 @@ http://localhost:3000
 npm run test
 
 - CI/CD:
-  Este projeto utiliza GitHub Actions para automação de integração e entrega contínua:
+Este projeto utiliza GitHub Actions para automação de integração e entrega contínua:
     - Lint com ESLint.
     - Testes automatizados com Jest.
     - Build da aplicação.
